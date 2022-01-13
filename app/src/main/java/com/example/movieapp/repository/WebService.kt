@@ -11,7 +11,7 @@ import retrofit2.http.Query
 
 // encargado de usar retrofit para traer la informacion del servidor  con los metodos get
 interface WebService {
-    @GET("movie/upcomping?")
+    @GET("movie/upcoming?")
     //la query debe ser la misma que en la url, la query se denota con ? y luego el nombre en este caso api_key
     suspend fun getUpComingMovies(@Query("api_key") apiKey: String): MovieList
 
