@@ -49,16 +49,24 @@ dependencies {
 
     //RETROFIT
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
     //GSON TRANSFORMA EL JSON A UN OBJETO
     implementation 'com.google.code.gson:gson:2.8.9'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-
-    //NAVEGATION
+    //<editor-fold desc="NAVEGATION">
     implementation "androidx.navigation:navigation-fragment-ktx:2.3.5"
     implementation "androidx.navigation:navigation-ui-ktx:2.3.5"
 
-    //<editor-fold desc="VIEW MODEL">
+    //<editor-fold desc="VIEW MODEL Y LIVE DATA">
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+
+    //<editor-fold desc="VIEW MODEL Y LIVE DATA">
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+    //<editor-fold desc="GLIDE IMAGES">
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
 }
