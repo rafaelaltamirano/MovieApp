@@ -14,7 +14,7 @@ class MovieViewModel(private val repo: MovieRepository) : ViewModel() {
         emit(Resource.Loading())
 //ejecuto la corrutina que nos trae la info del servidor
         try {
-            emit(Resource.Success(repo.getUpComingMovies()))
+            emit(Resource.Success(Triple(repo.getUpComingMovies(),repo.getTopRateMovie(),repo.getPopularMovies())))
         } catch (e: Exception) {
             emit(Resource.Failure(e))
         }

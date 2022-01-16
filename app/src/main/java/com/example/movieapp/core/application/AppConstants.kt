@@ -1,4 +1,4 @@
-package com.example.movieapp.application
+package com.example.movieapp.core.application
 
 
 // OBJECT funciona como un sigleton,cada vez que usemos appConstants accedera desde un mismo objeto, es decir lo crea solo una vez

@@ -1,6 +1,6 @@
 package com.example.movieapp.data.remote
 
-import com.example.movieapp.application.AppConstants
+import com.example.movieapp.core.application.AppConstants
 import com.example.movieapp.data.model.MovieList
 import com.example.movieapp.repository.WebService
 

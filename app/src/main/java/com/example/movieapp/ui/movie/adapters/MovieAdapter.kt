@@ -32,7 +32,7 @@ class MovieAdapter(
         //attacheo el click de cada pelicula para  navegar a detalle
         itemBinding.root.setOnClickListener {
             // obtengo la posicion de la lista que estoy clickeando y la guarda en una posicion
-            //no pisition: pisicion -1
+            //no position: posicion -1
             //caso contrario devuelve setOnClickListener que es igual a no obtener ninguna posicion
             val position =
                 holder.bindingAdapterPosition.takeIf { it != DiffUtil.DiffResult.NO_POSITION }
